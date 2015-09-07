@@ -40,7 +40,6 @@ class Project:
             self.colormap[author] = copy.deepcopy(self.color)
         return self.colormap[author]
 
-
     def get_json(self):
         blocks = []
         buildings = []
