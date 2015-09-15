@@ -1,0 +1,872 @@
+{
+    "buildings": [
+        {
+            "width": 3, 
+            "name": "zip.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib/zip.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 31, 
+            "name": "central_directory.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/central_directory.rb", 
+            "height": 60, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "compressor.rb", 
+            "color_g": 0.9881539746064275, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/compressor.rb", 
+            "height": 6, 
+            "color_b": 0.41293606508208747, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.10922117532776643
+        }, 
+        {
+            "width": 1, 
+            "name": "constants.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/constants.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "decompressor.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/decompressor.rb", 
+            "height": 6, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "deflater.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/deflater.rb", 
+            "height": 12, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 14, 
+            "name": "dos_time.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/dos_time.rb", 
+            "height": 18, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 70, 
+            "name": "entry.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/entry.rb", 
+            "height": 178, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 5, 
+            "name": "entry_set.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/entry_set.rb", 
+            "height": 42, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "errors.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/errors.rb", 
+            "height": 6, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 5, 
+            "name": "extra_field.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/extra_field.rb", 
+            "height": 34, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 100, 
+            "name": "file.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/file.rb", 
+            "height": 82, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 66, 
+            "name": "filesystem.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/filesystem.rb", 
+            "height": 222, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 8, 
+            "name": "inflater.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/inflater.rb", 
+            "height": 22, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 55, 
+            "name": "input_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/input_stream.rb", 
+            "height": 38, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 6, 
+            "name": "ioextras.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/ioextras.rb", 
+            "height": 16, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "null_compressor.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/null_compressor.rb", 
+            "height": 10, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "null_decompressor.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/null_decompressor.rb", 
+            "height": 16, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "null_input_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/null_input_stream.rb", 
+            "height": 6, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 31, 
+            "name": "output_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/output_stream.rb", 
+            "height": 44, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "pass_thru_compressor.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/pass_thru_compressor.rb", 
+            "height": 10, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "pass_thru_decompressor.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/pass_thru_decompressor.rb", 
+            "height": 16, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 3, 
+            "name": "streamable_directory.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/streamable_directory.rb", 
+            "height": 8, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 5, 
+            "name": "streamable_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/streamable_stream.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "version.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip/version.rb", 
+            "height": 4, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 4, 
+            "name": "encryption.rb", 
+            "color_g": 0.18873315322422768, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto/encryption.rb", 
+            "height": 8, 
+            "color_b": 0.9198547569574701, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto", 
+            "color_r": 0.3558967423502196
+        }, 
+        {
+            "width": 3, 
+            "name": "null_encryption.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto/null_encryption.rb", 
+            "height": 24, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 3, 
+            "name": "traditional_encryption.rb", 
+            "color_g": 0.7542769590842768, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto/traditional_encryption.rb", 
+            "height": 42, 
+            "color_b": 0.5989625541303782, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto", 
+            "color_r": 0.9576911442756553
+        }, 
+        {
+            "width": 2, 
+            "name": "generic.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/generic.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 5, 
+            "name": "ntfs.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/ntfs.rb", 
+            "height": 34, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 2, 
+            "name": "old_unix.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/old_unix.rb", 
+            "height": 16, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "universal_time.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/universal_time.rb", 
+            "height": 16, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 2, 
+            "name": "unix.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/unix.rb", 
+            "height": 16, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 9, 
+            "name": "zip64.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/zip64.rb", 
+            "height": 18, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 4, 
+            "name": "zip64_placeholder.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field/zip64_placeholder.rb", 
+            "height": 8, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 3, 
+            "name": "abstract_input_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\ioextras/abstract_input_stream.rb", 
+            "height": 36, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\ioextras", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 2, 
+            "name": "abstract_output_stream.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\ioextras/abstract_output_stream.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\ioextras", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 19, 
+            "name": "example.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/example.rb", 
+            "height": 42, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 5, 
+            "name": "example_filesystem.rb", 
+            "color_g": 0.033661184161841606, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/example_filesystem.rb", 
+            "height": 20, 
+            "color_b": 0.4865578334719173, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.30161699447368395
+        }, 
+        {
+            "width": 13, 
+            "name": "example_recursive.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/example_recursive.rb", 
+            "height": 20, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "gtk_ruby_zip.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/gtk_ruby_zip.rb", 
+            "height": 32, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 1, 
+            "name": "qtzip.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/qtzip.rb", 
+            "height": 36, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "write_simple.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/write_simple.rb", 
+            "height": 12, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 1, 
+            "name": "zipfind.rb", 
+            "color_g": 0.033661184161841606, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\samples/zipfind.rb", 
+            "height": 26, 
+            "color_b": 0.4865578334719173, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\samples", 
+            "color_r": 0.30161699447368395
+        }, 
+        {
+            "width": 0, 
+            "name": "basic_zip_file_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/basic_zip_file_test.rb", 
+            "height": 18, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 3, 
+            "name": "case_sensitivity_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/case_sensitivity_test.rb", 
+            "height": 38, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 16, 
+            "name": "central_directory_entry_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/central_directory_entry_test.rb", 
+            "height": 20, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "central_directory_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/central_directory_test.rb", 
+            "height": 28, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "deflater_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/deflater_test.rb", 
+            "height": 28, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 0, 
+            "name": "encryption_test.rb", 
+            "color_g": 0.7542769590842768, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/encryption_test.rb", 
+            "height": 18, 
+            "color_b": 0.5989625541303782, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.9576911442756553
+        }, 
+        {
+            "width": 6, 
+            "name": "entry_set_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/entry_set_test.rb", 
+            "height": 52, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 7, 
+            "name": "entry_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/entry_test.rb", 
+            "height": 52, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "errors_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/errors_test.rb", 
+            "height": 16, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "extra_field_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/extra_field_test.rb", 
+            "height": 26, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "file_extract_directory_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/file_extract_directory_test.rb", 
+            "height": 24, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "file_extract_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/file_extract_test.rb", 
+            "height": 32, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 3, 
+            "name": "file_permissions_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/file_permissions_test.rb", 
+            "height": 42, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "file_split_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/file_split_test.rb", 
+            "height": 28, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 10, 
+            "name": "file_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/file_test.rb", 
+            "height": 162, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 9, 
+            "name": "gentestfiles.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/gentestfiles.rb", 
+            "height": 52, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "inflater_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/inflater_test.rb", 
+            "height": 8, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 14, 
+            "name": "input_stream_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/input_stream_test.rb", 
+            "height": 52, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 9, 
+            "name": "local_entry_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/local_entry_test.rb", 
+            "height": 42, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 4, 
+            "name": "output_stream_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/output_stream_test.rb", 
+            "height": 42, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 0, 
+            "name": "pass_thru_compressor_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/pass_thru_compressor_test.rb", 
+            "height": 20, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "pass_thru_decompressor_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/pass_thru_decompressor_test.rb", 
+            "height": 8, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 1, 
+            "name": "settings_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/settings_test.rb", 
+            "height": 46, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 3, 
+            "name": "test_helper.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/test_helper.rb", 
+            "height": 72, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "unicode_file_names_and_comments_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/unicode_file_names_and_comments_test.rb", 
+            "height": 14, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 6, 
+            "name": "zip64_full_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/zip64_full_test.rb", 
+            "height": 22, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "zip64_support_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test/zip64_support_test.rb", 
+            "height": 8, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "null_encryption_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\crypto/null_encryption_test.rb", 
+            "height": 26, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\crypto", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "traditional_encryption_test.rb", 
+            "color_g": 0.7542769590842768, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\crypto/traditional_encryption_test.rb", 
+            "height": 26, 
+            "color_b": 0.5989625541303782, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\crypto", 
+            "color_r": 0.9576911442756553
+        }, 
+        {
+            "width": 1, 
+            "name": "notzippedruby.rb", 
+            "color_g": 0.033661184161841606, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\data/notzippedruby.rb", 
+            "height": 6, 
+            "color_b": 0.4865578334719173, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\data", 
+            "color_r": 0.30161699447368395
+        }, 
+        {
+            "width": 5, 
+            "name": "directory_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem/directory_test.rb", 
+            "height": 42, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "dir_iterator_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem/dir_iterator_test.rb", 
+            "height": 18, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 2, 
+            "name": "file_mutating_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem/file_mutating_test.rb", 
+            "height": 34, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 13, 
+            "name": "file_nonmutating_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem/file_nonmutating_test.rb", 
+            "height": 156, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 0, 
+            "name": "file_stat_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem/file_stat_test.rb", 
+            "height": 32, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 1, 
+            "name": "abstract_input_stream_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras/abstract_input_stream_test.rb", 
+            "height": 36, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 1, 
+            "name": "abstract_output_stream_test.rb", 
+            "color_g": 0.48328674573846775, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras/abstract_output_stream_test.rb", 
+            "height": 52, 
+            "color_b": 0.5104235873808404, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras", 
+            "color_r": 0.7351467588554879
+        }, 
+        {
+            "width": 0, 
+            "name": "fake_io_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras/fake_io_test.rb", 
+            "height": 10, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras", 
+            "color_r": 0.7407646245884547
+        }, 
+        {
+            "width": 0, 
+            "name": "example_recursive_test.rb", 
+            "color_g": 0.9141477671927487, 
+            "path": "C:\\Users\\Ichinose\\rubyzip\\test\\samples/example_recursive_test.rb", 
+            "height": 18, 
+            "color_b": 0.15609221110185056, 
+            "block": "C:\\Users\\Ichinose\\rubyzip\\test\\samples", 
+            "color_r": 0.7407646245884547
+        }
+    ], 
+    "blocks": [
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\extra_field"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test\\samples"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\samples"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test\\filesystem"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test\\crypto"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\crypto"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test\\ioextras"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\lib"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\lib\\zip\\ioextras"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubyzip\\test\\data"
+        }
+    ]
+}

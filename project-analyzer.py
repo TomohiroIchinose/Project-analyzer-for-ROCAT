@@ -59,7 +59,11 @@ class Project:
                     {"block": dpath, "name": fname, "path": dpath + "/" + fname, "width": comment, "height": loc * 2, "color_r":color[0], "color_g":color[1], "color_b":color[2]})
         for name in block_name:
             blocks.append({"name": name})
-        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings})
+        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings}, indent=4)
+        with open('test.json', 'w') as f:
+            #print json_string
+            #json.dump(json_string, f, indent=4)
+            f.write(json_string)
         return json_string
 
     def is_target_file(self, file_path):
@@ -108,9 +112,9 @@ class Project:
 
 
 def main():
-    pa = Project("C:\Users\Ichinose\\rubygems", "rb")
-    json = pa.get_json()
-    print json
+    pa = Project("C:\Users\Ichinose\\rubyzip", "rb")
+    pjson = pa.get_json()
+    print pjson
 
 
 main()
