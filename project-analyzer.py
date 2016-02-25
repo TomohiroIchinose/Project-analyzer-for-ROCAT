@@ -59,7 +59,7 @@ class Project:
                 comment = self.CCOUNT_FUNC[self.lang](fpath)
                 slist = self.count_selfadmitted(fpath)
                 buildings.append(
-                    {"block": dpath, "name": fname, "path": dpath + "/" + fname, "width": comment, "height": loc * 2, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
+                    {"block": dpath, "name": fname, "path": dpath + "/" + fname, "width": comment * 10, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
         json_string = json.dumps({"blocks": list(blocks), "buildings": buildings}, indent=4)
@@ -78,7 +78,7 @@ class Project:
         f = open(file_path)
         lines = f.readlines()
         f.close()
-        return lines.count("\n")
+        return "".join(lines).count("\n")
 
     def count_selfadmitted(self, file_path):
         slist = []
@@ -128,7 +128,7 @@ class Project:
 
 
 def main():
-    pa = Project("C:\Users\Ichinose\\rubyzip", "rb")
+    pa = Project("C:\Users\Ichinose\\guice", "java")
     pjson = pa.get_json()
     print pjson
 
