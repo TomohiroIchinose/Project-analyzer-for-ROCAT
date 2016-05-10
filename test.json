@@ -1,0 +1,3570 @@
+{
+    "buildings": [
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "setup.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems/setup.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems", 
+            "height": 51
+        }, 
+        {
+            "width": 150, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "gauntlet_rubygems.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib/gauntlet_rubygems.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib", 
+            "height": 52
+        }, 
+        {
+            "width": 4260, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                48, 
+                344, 
+                490, 
+                517, 
+                633, 
+                634, 
+                1222
+            ], 
+            "name": "rubygems.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib/rubygems.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib", 
+            "height": 1254
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.6115937012158182, 
+            "SATD": [], 
+            "name": "ubygems.rb", 
+            "color_g": 0.9189523135794322, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib/ubygems.rb", 
+            "color_r": 0.2524459814962382, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib", 
+            "height": 12
+        }, 
+        {
+            "width": 170, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "available_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/available_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 166
+        }, 
+        {
+            "width": 930, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "basic_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/basic_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 313
+        }, 
+        {
+            "width": 1590, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                162
+            ], 
+            "name": "command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 584
+        }, 
+        {
+            "width": 460, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "command_manager.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/command_manager.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 220
+        }, 
+        {
+            "width": 160, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                3
+            ], 
+            "name": "compatibility.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/compatibility.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 61
+        }, 
+        {
+            "width": 1090, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                208
+            ], 
+            "name": "config_file.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/config_file.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 485
+        }, 
+        {
+            "width": 440, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "defaults.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/defaults.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 179
+        }, 
+        {
+            "width": 850, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                286
+            ], 
+            "name": "dependency.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/dependency.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 339
+        }, 
+        {
+            "width": 960, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                19, 
+                21, 
+                24, 
+                119, 
+                254
+            ], 
+            "name": "dependency_installer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/dependency_installer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 492
+        }, 
+        {
+            "width": 590, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                67
+            ], 
+            "name": "dependency_list.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/dependency_list.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 245
+        }, 
+        {
+            "width": 300, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "deprecate.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/deprecate.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 72
+        }, 
+        {
+            "width": 310, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "doctor.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/doctor.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 133
+        }, 
+        {
+            "width": 520, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "errors.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/errors.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 139
+        }, 
+        {
+            "width": 810, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "exceptions.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/exceptions.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 272
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "ext.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/ext.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 20
+        }, 
+        {
+            "width": 290, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "gemcutter_utilities.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/gemcutter_utilities.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 156
+        }, 
+        {
+            "width": 220, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                27
+            ], 
+            "name": "gem_runner.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/gem_runner.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 83
+        }, 
+        {
+            "width": 550, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                318, 
+                399
+            ], 
+            "name": "indexer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/indexer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 435
+        }, 
+        {
+            "width": 2260, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                132
+            ], 
+            "name": "installer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/installer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 853
+        }, 
+        {
+            "width": 630, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                153
+            ], 
+            "name": "installer_test_case.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/installer_test_case.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 195
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.586737330737342, 
+            "SATD": [], 
+            "name": "install_default_message.rb", 
+            "color_g": 0.22559924960173772, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/install_default_message.rb", 
+            "color_r": 0.029928040954988022, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 14
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "install_message.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/install_message.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 14
+        }, 
+        {
+            "width": 150, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "install_update_options.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/install_update_options.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 188
+        }, 
+        {
+            "width": 270, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "local_remote_options.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/local_remote_options.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 150
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "mock_gem_ui.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/mock_gem_ui.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 90
+        }, 
+        {
+            "width": 290, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "name_tuple.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/name_tuple.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 125
+        }, 
+        {
+            "width": 1500, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "package.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/package.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 628
+        }, 
+        {
+            "width": 640, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "package_task.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/package_task.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 130
+        }, 
+        {
+            "width": 220, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "path_support.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/path_support.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 82
+        }, 
+        {
+            "width": 350, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "platform.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/platform.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 207
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.592910190589256, 
+            "SATD": [], 
+            "name": "psych_additions.rb", 
+            "color_g": 0.7424202075796789, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/psych_additions.rb", 
+            "color_r": 0.5855302465949536, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 11
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.6754736423813555, 
+            "SATD": [], 
+            "name": "psych_tree.rb", 
+            "color_g": 0.919390799113394, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/psych_tree.rb", 
+            "color_r": 0.20020975305196642, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 33
+        }, 
+        {
+            "width": 640, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "rdoc.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/rdoc.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 336
+        }, 
+        {
+            "width": 710, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "remote_fetcher.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/remote_fetcher.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 407
+        }, 
+        {
+            "width": 170, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [
+                187
+            ], 
+            "name": "request.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/request.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 246
+        }, 
+        {
+            "width": 740, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "request_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/request_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 420
+        }, 
+        {
+            "width": 820, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                251
+            ], 
+            "name": "requirement.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/requirement.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 286
+        }, 
+        {
+            "width": 580, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "resolver.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/resolver.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 292
+        }, 
+        {
+            "width": 3800, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "security.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/security.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 597
+        }, 
+        {
+            "width": 1260, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "server.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/server.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 870
+        }, 
+        {
+            "width": 430, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "source.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/source.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 236
+        }, 
+        {
+            "width": 430, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "source_list.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/source_list.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 151
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "source_local.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/source_local.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 7
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "source_specific_file.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/source_specific_file.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 6
+        }, 
+        {
+            "width": 9090, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                756, 
+                770, 
+                786, 
+                861, 
+                933, 
+                942, 
+                1446, 
+                2486
+            ], 
+            "name": "specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 2972
+        }, 
+        {
+            "width": 510, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "spec_fetcher.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/spec_fetcher.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 271
+        }, 
+        {
+            "width": 410, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "stub_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/stub_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 199
+        }, 
+        {
+            "width": 360, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                2
+            ], 
+            "name": "syck_hack.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/syck_hack.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 78
+        }, 
+        {
+            "width": 2610, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                536, 
+                613, 
+                884, 
+                1025
+            ], 
+            "name": "test_case.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/test_case.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 1489
+        }, 
+        {
+            "width": 800, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_utilities.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/test_utilities.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 385
+        }, 
+        {
+            "width": 110, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "text.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/text.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 75
+        }, 
+        {
+            "width": 650, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "uninstaller.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/uninstaller.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 347
+        }, 
+        {
+            "width": 160, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "uri_formatter.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/uri_formatter.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 51
+        }, 
+        {
+            "width": 1940, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "user_interaction.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/user_interaction.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 705
+        }, 
+        {
+            "width": 180, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "util.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/util.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 136
+        }, 
+        {
+            "width": 330, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                131
+            ], 
+            "name": "validator.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/validator.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 167
+        }, 
+        {
+            "width": 2020, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "version.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/version.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 368
+        }, 
+        {
+            "width": 130, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "version_option.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems/version_option.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems", 
+            "height": 73
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "build_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/build_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 62
+        }, 
+        {
+            "width": 90, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "cert_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/cert_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 278
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "check_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/check_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 95
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "cleanup_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/cleanup_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 167
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "contents_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/contents_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 192
+        }, 
+        {
+            "width": 170, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "dependency_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/dependency_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 219
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "environment_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/environment_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 160
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "fetch_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/fetch_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 79
+        }, 
+        {
+            "width": 130, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "generate_index_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/generate_index_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 86
+        }, 
+        {
+            "width": 200, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "help_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/help_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 386
+        }, 
+        {
+            "width": 210, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "install_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/install_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 349
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "list_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/list_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 42
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "lock_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/lock_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 112
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "mirror_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/mirror_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 27
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.946494185056195, 
+            "SATD": [], 
+            "name": "open_command.rb", 
+            "color_g": 0.20372928759156206, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/open_command.rb", 
+            "color_r": 0.6079591746667771, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 78
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "outdated_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/outdated_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 34
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "owner_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/owner_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 101
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "pristine_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/pristine_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 177
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "push_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/push_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 100
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "query_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/query_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 345
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "rdoc_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/rdoc_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 98
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "search_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/search_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 42
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "server_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/server_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 88
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "setup_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/setup_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 485
+        }, 
+        {
+            "width": 100, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "sources_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/sources_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 212
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "specification_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/specification_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 147
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "stale_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/stale_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 40
+        }, 
+        {
+            "width": 80, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "uninstall_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/uninstall_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 166
+        }, 
+        {
+            "width": 360, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "unpack_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/unpack_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 184
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "update_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/update_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 279
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                53
+            ], 
+            "name": "which_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/which_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 92
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "yank_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands/yank_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands", 
+            "height": 109
+        }, 
+        {
+            "width": 380, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                8
+            ], 
+            "name": "kernel_gem.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\core_ext/kernel_gem.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\core_ext", 
+            "height": 75
+        }, 
+        {
+            "width": 460, 
+            "color_b": 0.6754736423813555, 
+            "SATD": [], 
+            "name": "kernel_require.rb", 
+            "color_g": 0.919390799113394, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\core_ext/kernel_require.rb", 
+            "color_r": 0.20020975305196642, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\core_ext", 
+            "height": 141
+        }, 
+        {
+            "width": 350, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 222
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "build_error.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/build_error.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 8
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "cmake_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/cmake_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 18
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "configure_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/configure_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 25
+        }, 
+        {
+            "width": 90, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "ext_conf_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/ext_conf_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 85
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "rake_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext/rake_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext", 
+            "height": 38
+        }, 
+        {
+            "width": 300, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "digest_io.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/digest_io.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 66
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "file_source.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/file_source.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 35
+        }, 
+        {
+            "width": 80, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "io_source.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/io_source.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 47
+        }, 
+        {
+            "width": 330, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "old.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/old.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 180
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "source.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/source.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 5
+        }, 
+        {
+            "width": 750, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "tar_header.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/tar_header.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 231
+        }, 
+        {
+            "width": 280, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "tar_reader.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/tar_reader.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 125
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "tar_test_case.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/tar_test_case.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 148
+        }, 
+        {
+            "width": 670, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "tar_writer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package/tar_writer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package", 
+            "height": 346
+        }, 
+        {
+            "width": 380, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "entry.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package\\tar_reader/entry.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package\\tar_reader", 
+            "height": 155
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "connection_pools.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request/connection_pools.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request", 
+            "height": 89
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "https_pool.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request/https_pool.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request", 
+            "height": 12
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.7720529182752742, 
+            "SATD": [], 
+            "name": "http_pool.rb", 
+            "color_g": 0.026253432820988243, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request/http_pool.rb", 
+            "color_r": 0.4963307793023569, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request", 
+            "height": 49
+        }, 
+        {
+            "width": 2890, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                704
+            ], 
+            "name": "gem_dependency_api.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set/gem_dependency_api.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set", 
+            "height": 803
+        }, 
+        {
+            "width": 300, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "lockfile.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set/lockfile.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set", 
+            "height": 240
+        }, 
+        {
+            "width": 220, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "parser.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set\\lockfile/parser.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set\\lockfile", 
+            "height": 347
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "tokenizer.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set\\lockfile/tokenizer.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set\\lockfile", 
+            "height": 113
+        }, 
+        {
+            "width": 390, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "activation_request.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/activation_request.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 175
+        }, 
+        {
+            "width": 260, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "api_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/api_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 127
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "api_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/api_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 87
+        }, 
+        {
+            "width": 200, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "best_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/best_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 80
+        }, 
+        {
+            "width": 210, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "composed_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/composed_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 68
+        }, 
+        {
+            "width": 280, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "conflict.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/conflict.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 161
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "current_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/current_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 15
+        }, 
+        {
+            "width": 360, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "dependency_request.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/dependency_request.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 121
+        }, 
+        {
+            "width": 370, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "git_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/git_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 124
+        }, 
+        {
+            "width": 100, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "git_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/git_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 60
+        }, 
+        {
+            "width": 80, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "index_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/index_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 82
+        }, 
+        {
+            "width": 200, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "index_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/index_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 71
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "installed_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/installed_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 60
+        }, 
+        {
+            "width": 460, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "installer_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/installer_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 226
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "local_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/local_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 43
+        }, 
+        {
+            "width": 200, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "lock_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/lock_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 86
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "lock_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/lock_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 86
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "molinillo.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/molinillo.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 3
+        }, 
+        {
+            "width": 220, 
+            "color_b": 0.6754736423813555, 
+            "SATD": [], 
+            "name": "requirement_list.rb", 
+            "color_g": 0.919390799113394, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/requirement_list.rb", 
+            "color_r": 0.20020975305196642, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 83
+        }, 
+        {
+            "width": 240, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 58
+        }, 
+        {
+            "width": 420, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 112
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "spec_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/spec_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 58
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.6754736423813555, 
+            "SATD": [], 
+            "name": "stats.rb", 
+            "color_g": 0.919390799113394, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/stats.rb", 
+            "color_r": 0.20020975305196642, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 46
+        }, 
+        {
+            "width": 300, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "vendor_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/vendor_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 89
+        }, 
+        {
+            "width": 80, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "vendor_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver/vendor_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver", 
+            "height": 26
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "molinillo.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib/molinillo.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib", 
+            "height": 7
+        }, 
+        {
+            "width": 800, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "dependency_graph.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/dependency_graph.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 268
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "errors.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/errors.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 71
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "gem_metadata.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/gem_metadata.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 5
+        }, 
+        {
+            "width": 1030, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "resolution.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/resolution.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 432
+        }, 
+        {
+            "width": 190, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "resolver.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/resolver.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 45
+        }, 
+        {
+            "width": 170, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "state.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo/state.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo", 
+            "height": 53
+        }, 
+        {
+            "width": 580, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "specification_provider.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo\\modules/specification_provider.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo\\modules", 
+            "height": 101
+        }, 
+        {
+            "width": 280, 
+            "color_b": 0.5762590273203065, 
+            "SATD": [], 
+            "name": "ui.rb", 
+            "color_g": 0.2153139982913308, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo\\modules/ui.rb", 
+            "color_r": 0.6511162821054831, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo\\modules", 
+            "height": 65
+        }, 
+        {
+            "width": 360, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "policies.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security/policies.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security", 
+            "height": 117
+        }, 
+        {
+            "width": 440, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                140
+            ], 
+            "name": "policy.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security/policy.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security", 
+            "height": 297
+        }, 
+        {
+            "width": 410, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "signer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security/signer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security", 
+            "height": 156
+        }, 
+        {
+            "width": 280, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                51
+            ], 
+            "name": "trust_dir.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security/trust_dir.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security", 
+            "height": 120
+        }, 
+        {
+            "width": 580, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "git.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/git.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 242
+        }, 
+        {
+            "width": 80, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "installed.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/installed.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 42
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "local.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/local.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 131
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "lock.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/lock.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 50
+        }, 
+        {
+            "width": 220, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "specific_file.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/specific_file.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 74
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "vendor.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source/vendor.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source", 
+            "height": 29
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.44527981864151445, 
+            "SATD": [], 
+            "name": "licenses.rb", 
+            "color_g": 0.4846145180974123, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\util/licenses.rb", 
+            "color_r": 0.4999062451816626, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\util", 
+            "height": 311
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "list.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\util/list.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\util", 
+            "height": 38
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "bad_rake.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/bad_rake.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 3
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "bogussources.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/bogussources.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 10
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [
+                1
+            ], 
+            "name": "fix_openssl_warnings.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/fix_openssl_warnings.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 14
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "good_rake.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/good_rake.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 3
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "rubygems_plugin.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/rubygems_plugin.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 23
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "simple_gem.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/simple_gem.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 68
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_bundled_ca.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_bundled_ca.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 62
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_config.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_config.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 26
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.20310954706409945, 
+            "SATD": [], 
+            "name": "test_deprecate.rb", 
+            "color_g": 0.13415528881798666, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_deprecate.rb", 
+            "color_r": 0.02396760754512861, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 78
+        }, 
+        {
+            "width": 260, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                812, 
+                1594
+            ], 
+            "name": "test_gem.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 1622
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_available_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_available_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 131
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 245
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_build_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_build_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 112
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                34
+            ], 
+            "name": "test_gem_commands_cert_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_cert_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 672
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_check_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_check_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 70
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_cleanup_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_cleanup_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 170
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_contents_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_contents_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 241
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_dependency_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_dependency_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 231
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_environment_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_environment_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 155
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_fetch_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_fetch_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 128
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_generate_index_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_generate_index_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 52
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_help_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_help_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 76
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                141
+            ], 
+            "name": "test_gem_commands_install_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_install_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 988
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_commands_list_command.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_list_command.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 35
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_commands_lock_command.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_lock_command.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 70
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_mirror.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_mirror.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 21
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.946494185056195, 
+            "SATD": [], 
+            "name": "test_gem_commands_open_command.rb", 
+            "color_g": 0.20372928759156206, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_open_command.rb", 
+            "color_r": 0.6079591746667771, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 54
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_commands_outdated_command.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_outdated_command.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 34
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_owner_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_owner_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 206
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_pristine_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_pristine_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 490
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_push_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_push_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 264
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_query_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_query_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 635
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_search_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_search_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 19
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_commands_server_command.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_server_command.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 61
+        }, 
+        {
+            "width": 100, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_setup_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_setup_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 138
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_sources_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_sources_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 250
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_specification_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_specification_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 252
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_stale_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_stale_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 44
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                89
+            ], 
+            "name": "test_gem_commands_uninstall_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_uninstall_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 283
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.865350503009245, 
+            "SATD": [], 
+            "name": "test_gem_commands_unpack_command.rb", 
+            "color_g": 0.9507435863852919, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_unpack_command.rb", 
+            "color_r": 0.09961110509612703, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 210
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_update_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_update_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 515
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_which_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_which_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 88
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_commands_yank_command.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_commands_yank_command.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 99
+        }, 
+        {
+            "width": 300, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [
+                98, 
+                149, 
+                169, 
+                188, 
+                207, 
+                240
+            ], 
+            "name": "test_gem_command_manager.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_command_manager.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 265
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_config_file.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_config_file.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 469
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_dependency.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_dependency.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 363
+        }, 
+        {
+            "width": 70, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_dependency_installer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_dependency_installer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 1236
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_dependency_list.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_dependency_list.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 261
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_dependency_resolution_error.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_dependency_resolution_error.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 30
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_doctor.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_doctor.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 170
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_ext_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_ext_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 336
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_ext_cmake_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_ext_cmake_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 86
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_ext_configure_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_ext_configure_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 88
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_ext_ext_conf_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_ext_ext_conf_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 212
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                24
+            ], 
+            "name": "test_gem_ext_rake_builder.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_ext_rake_builder.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 66
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_gemcutter_utilities.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_gemcutter_utilities.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 236
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_gem_runner.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_gem_runner.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 70
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_impossible_dependencies_error.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_impossible_dependencies_error.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 63
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_indexer.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_indexer.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 368
+        }, 
+        {
+            "width": 400, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                450
+            ], 
+            "name": "test_gem_installer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_installer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 1541
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_install_update_options.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_install_update_options.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 186
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_local_remote_options.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_local_remote_options.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 135
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_name_tuple.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_name_tuple.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 46
+        }, 
+        {
+            "width": 210, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 871
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package_old.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_old.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 91
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_package_tar_header.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_tar_header.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 148
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package_tar_reader.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_tar_reader.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 91
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package_tar_reader_entry.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_tar_reader_entry.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 143
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package_tar_writer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_tar_writer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 265
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_package_task.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_package_task.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 85
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5665060693662759, 
+            "SATD": [], 
+            "name": "test_gem_path_support.rb", 
+            "color_g": 0.7566596108657471, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_path_support.rb", 
+            "color_r": 0.7673862734871866, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 86
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_platform.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_platform.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 298
+        }, 
+        {
+            "width": 30, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_rdoc.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_rdoc.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 271
+        }, 
+        {
+            "width": 200, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_remote_fetcher.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_remote_fetcher.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 1040
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_request.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 364
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_request_connection_pools.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_connection_pools.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 131
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_request_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 596
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_request_set_gem_dependency_api.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_set_gem_dependency_api.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 844
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_request_set_lockfile.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_set_lockfile.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 471
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "test_gem_request_set_lockfile_parser.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_set_lockfile_parser.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 545
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "test_gem_request_set_lockfile_tokenizer.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_request_set_lockfile_tokenizer.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 307
+        }, 
+        {
+            "width": 60, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_gem_requirement.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_requirement.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 388
+        }, 
+        {
+            "width": 150, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 716
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_activation_request.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_activation_request.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 75
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_api_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_api_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 210
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_api_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_api_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 146
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_best_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_best_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 139
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_composed_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_composed_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 47
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_conflict.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_conflict.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 89
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_dependency_request.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_dependency_request.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 86
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_git_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_git_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 191
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_git_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_git_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 115
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_index_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_index_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 91
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_index_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_index_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 91
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_installed_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_installed_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 51
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_installer_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_installer_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 259
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_local_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_local_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 47
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_lock_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_lock_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 65
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_lock_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_lock_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 101
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_requirement_list.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_requirement_list.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 22
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 66
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_vendor_set.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_vendor_set.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 85
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_resolver_vendor_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_resolver_vendor_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 85
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_security.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_security.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 308
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                36
+            ], 
+            "name": "test_gem_security_policy.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_security_policy.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 542
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_security_signer.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_security_signer.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 210
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_security_trust_dir.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_security_trust_dir.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 102
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_server.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_server.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 410
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_silent_ui.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_silent_ui.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 118
+        }, 
+        {
+            "width": 40, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 243
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_fetch_problem.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_fetch_problem.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 21
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_git.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_git.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 310
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_installed.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_installed.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 38
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_list.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_list.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 113
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_local.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_local.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 108
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_lock.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_lock.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 116
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_specific_file.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_specific_file.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 77
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_source_vendor.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_source_vendor.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 33
+        }, 
+        {
+            "width": 1160, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [
+                98, 
+                3379, 
+                3390, 
+                3401, 
+                3410
+            ], 
+            "name": "test_gem_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 3425
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_spec_fetcher.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_spec_fetcher.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 312
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_stream_ui.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_stream_ui.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 240
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_stub_specification.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_stub_specification.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 216
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_text.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_text.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 78
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_uninstaller.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_uninstaller.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 486
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_unsatisfiable_dependency_error.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_unsatisfiable_dependency_error.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 34
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_uri_formatter.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_uri_formatter.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 30
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_util.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_util.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 41
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_validator.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_validator.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 47
+        }, 
+        {
+            "width": 140, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_version.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_version.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 215
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "test_gem_version_option.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_gem_version_option.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 153
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "test_kernel.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_kernel.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 87
+        }, 
+        {
+            "width": 90, 
+            "color_b": 0.6612703089991484, 
+            "SATD": [], 
+            "name": "test_require.rb", 
+            "color_g": 0.42530311983259117, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems/test_require.rb", 
+            "color_r": 0.4894905679747461, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems", 
+            "height": 278
+        }, 
+        {
+            "width": 50, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "openssl.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\fake_certlib/openssl.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\fake_certlib", 
+            "height": 9
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "discover.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\foo/discover.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\foo", 
+            "height": 2
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "rubygems_plugin.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\exception/rubygems_plugin.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\exception", 
+            "height": 4
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "rubygems_plugin.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\load/rubygems_plugin.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\load", 
+            "height": 5
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "rubygems_plugin.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\standarderror/rubygems_plugin.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\standarderror", 
+            "height": 4
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.8599387544725053, 
+            "SATD": [], 
+            "name": "crash_command.rb", 
+            "color_g": 0.007437957670666462, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\rubygems\\commands/crash_command.rb", 
+            "color_r": 0.31490446077479417, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\rubygems\\commands", 
+            "height": 7
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.5387179556889643, 
+            "SATD": [], 
+            "name": "discover.rb", 
+            "color_g": 0.15006399464860654, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\sff/discover.rb", 
+            "color_r": 0.56686408892316, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\sff", 
+            "height": 2
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "create_certs.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\util/create_certs.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\util", 
+            "height": 158
+        }, 
+        {
+            "width": 0, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "create_encrypted_key.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\util/create_encrypted_key.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\util", 
+            "height": 18
+        }, 
+        {
+            "width": 20, 
+            "color_b": 0.44527981864151445, 
+            "SATD": [], 
+            "name": "generate_spdx_license_list.rb", 
+            "color_g": 0.4846145180974123, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\util/generate_spdx_license_list.rb", 
+            "color_r": 0.4999062451816626, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\util", 
+            "height": 23
+        }, 
+        {
+            "width": 10, 
+            "color_b": 0.3592583154556116, 
+            "SATD": [], 
+            "name": "update_bundled_ca_certificates.rb", 
+            "color_g": 0.882419987881032, 
+            "path": "C:\\Users\\Ichinose\\rubygems\\util/update_bundled_ca_certificates.rb", 
+            "color_r": 0.01809494116349486, 
+            "block": "C:\\Users\\Ichinose\\rubygems\\util", 
+            "height": 120
+        }
+    ], 
+    "blocks": [
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\exception"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request_set\\lockfile"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\util"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\standarderror"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\source"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\request"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\commands"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\security"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\sff"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\rubygems\\commands"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\util"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\resolver\\molinillo\\lib\\molinillo\\modules"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\plugin\\load"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\foo"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\ext"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\test\\rubygems\\fake_certlib"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\package\\tar_reader"
+        }, 
+        {
+            "name": "C:\\Users\\Ichinose\\rubygems\\lib\\rubygems\\core_ext"
+        }
+    ]
+}

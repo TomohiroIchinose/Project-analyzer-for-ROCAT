@@ -3,6 +3,7 @@ import re
 import json
 import copy
 import random
+import sys
 from author import calc_authorship
 
 
@@ -63,7 +64,7 @@ class Project:
         for name in block_name:
             blocks.append({"name": name})
         json_string = json.dumps({"blocks": list(blocks), "buildings": buildings}, indent=4)
-        with open('test.json', 'w') as f:
+        with open('city.json', 'w') as f:
             #print json_string
             #json.dump(json_string, f, indent=4)
             f.write(json_string)
@@ -128,9 +129,12 @@ class Project:
 
 
 def main():
-    pa = Project("C:\Users\Ichinose\\guice", "java")
+    argv = sys.argv
+    pa = Project(argv[1], argv[2])
+    #pa = Project("C:\Users\Ichinose\\guice", "java")
     pjson = pa.get_json()
     print pjson
+
 
 
 main()
