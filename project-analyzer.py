@@ -8,10 +8,11 @@ from author import calc_authorship
 
 
 class Project:
-    def __init__(self, repo_path, lang):
+    def __init__(self, repo_path, lang, file_name):
         self.CCOUNT_FUNC = {"java": self.count_comments4j, "py": self.count_comments4py, "rb": self.count_comments4rb}
         self.repo_path = repo_path
         self.lang = lang
+        self.file_name = file_name
         self.authors = calc_authorship(repo_path)
         self.colormap = {}
         self.color = [0.0, 0.0, 0.0]
@@ -53,7 +54,7 @@ class Project:
                 if not self.is_target_file(fname):
                     continue
                 author = self.get_bestauthor(fpath)
-                print author, fpath
+                #print author, fpath
                 color = self.set_color(author)
                 block_name.add(dpath)
                 loc = self.count_lines(fpath) + 2
@@ -64,8 +65,8 @@ class Project:
         for name in block_name:
             blocks.append({"name": name})
         json_string = json.dumps({"blocks": list(blocks), "buildings": buildings}, indent=4)
-        with open('city.json', 'w') as f:
-            #print json_string
+        with open(self.file_name, 'w') as f:
+            #print "Writing"
             #json.dump(json_string, f, indent=4)
             f.write(json_string)
         return json_string
@@ -130,7 +131,7 @@ class Project:
 
 def main():
     argv = sys.argv
-    pa = Project(argv[1], argv[2])
+    pa = Project(argv[1], argv[2], argv[3])
     #pa = Project("C:\Users\Ichinose\\guice", "java")
     pjson = pa.get_json()
     print pjson
