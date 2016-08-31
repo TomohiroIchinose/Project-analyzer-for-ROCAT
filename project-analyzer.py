@@ -47,8 +47,11 @@ class Project:
     def get_json(self):
         blocks = []
         buildings = []
+        directories = []
         block_name = set()
         for dpath, dnames, fnames in os.walk(self.repo_path):
+            directories.append(dpath)
+            #print dpath
             for fname in fnames:
                 fpath = dpath + "/" + fname
                 if not self.is_target_file(fname):
@@ -64,7 +67,7 @@ class Project:
                     {"block": dpath, "name": fname, "path": dpath + "/" + fname, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
-        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings}, indent=4)
+        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories}, indent=4)
         with open(self.file_name, 'w') as f:
             #print "Writing"
             #json.dump(json_string, f, indent=4)
@@ -131,10 +134,10 @@ class Project:
 
 def main():
     argv = sys.argv
-    pa = Project(argv[1], argv[2], argv[3])
-    #pa = Project("C:\Users\Ichinose\\guice", "java")
+    #pa = Project(argv[1], argv[2], argv[3])
+    pa = Project("C:\Users\Ichinose\\guice", "java", "C:\Users\Ichinose\\test.json")
     pjson = pa.get_json()
-    print pjson
+    #print pjson
 
 
 
