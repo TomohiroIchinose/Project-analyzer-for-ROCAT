@@ -48,11 +48,13 @@ class Project:
         blocks = []
         buildings = []
         directories = []
+        total = 0
         block_name = set()
         for dpath, dnames, fnames in os.walk(self.repo_path):
             directories.append(dpath)
             #print dpath
             for fname in fnames:
+                each = 0
                 fpath = dpath + "/" + fname
                 if not self.is_target_file(fname):
                     continue
@@ -62,12 +64,13 @@ class Project:
                 block_name.add(dpath)
                 loc = self.count_lines(fpath) + 2
                 comment = self.CCOUNT_FUNC[self.lang](fpath)
-                slist = self.count_selfadmitted(fpath)
+                slist, each = self.count_selfadmitted(fpath)
+                total += each
                 buildings.append(
                     {"block": dpath, "name": fname, "path": dpath + "/" + fname, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
-        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories}, indent=4)
+        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total}, indent=4)
         with open(self.file_name, 'w') as f:
             #print "Writing"
             #json.dump(json_string, f, indent=4)
@@ -87,13 +90,15 @@ class Project:
 
     def count_selfadmitted(self, file_path):
         slist = []
+        count = 0
         f = open(file_path)
         lines = f.readlines()
         for i,line in enumerate(lines):
             if self.is_debt_line(line):
                 slist.append(i)
+                count += 1
         f.close()
-        return slist
+        return (slist, count)
 
     def is_debt_line(self,line):
         return any([word.lower() in line.lower() for word in self.debt_words])
@@ -135,7 +140,7 @@ class Project:
 def main():
     argv = sys.argv
     #pa = Project(argv[1], argv[2], argv[3])
-    pa = Project("C:\Users\Ichinose\\guice", "java", "C:\Users\Ichinose\\test.json")
+    pa = Project("C:\Users\Ichinose\Documents\GitHub\\Activiti", "java", "C:\Users\Ichinose\\test.json")
     pjson = pa.get_json()
     #print pjson
 
