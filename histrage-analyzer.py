@@ -53,22 +53,30 @@ class Project:
         block_name = set()
         for dpath, dnames, fnames in os.walk(self.repo_path):
             directories.append(dpath)
-            #print dpath
             for fname in fnames:
-                each = 0
-                fpath = dpath + "/" + fname
-                if not self.is_target_file(fname):
-                    continue
-                author = self.get_bestauthor(fpath)
-                #print author, fpath
-                color = self.set_color(author)
-                block_name.add(dpath)
-                loc = self.count_lines(fpath) + 2
-                comment = self.CCOUNT_FUNC[self.lang](fpath)
-                slist, each = self.count_selfadmitted(fpath)
-                total += each
-                buildings.append(
-                    {"block": dpath, "name": fname, "path": dpath + "/" + fname, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
+                if fname == "body":
+                    each = 0
+                    fpath = dpath + "/" + fname
+                    #print fpath
+                    #print dpath
+                    loc = self.count_lines(fpath)
+                    comment = self.CCOUNT_FUNC[self.lang](fpath) + 1
+
+                    author = self.get_bestauthor(fpath)
+                    #print author, fpath
+                    color = self.set_color(author)
+
+                    cut = dpath.rfind("[CN]")
+                    block = dpath[0:cut-1]
+                    block_name.add(block)
+
+                    slist, each = self.count_selfadmitted(fpath)
+                    total += each
+
+                    cut = dpath.rfind("/")
+                    funcname = dpath[cut+1:len(dpath)]
+                    buildings.append(
+                    {"block": block, "name": funcname, "path": dpath + "/" + fname, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
         json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total}, indent=4)
@@ -140,8 +148,8 @@ class Project:
 
 def main():
     argv = sys.argv
-    #pa = Project(argv[1], argv[2], argv[3])
-    pa = Project("C:\Users\Ichinose\Documents\GitHub\\acra", "java", "C:\Users\Ichinose\\test.json")
+    pa = Project(argv[1], argv[2], argv[3])
+    #pa = Project("C:\Users\Ichinose\Documents\GitHub\\acra(histrage)", "java", "C:\Users\Ichinose\\test2.json")
     pjson = pa.get_json()
     #print pjson
 
