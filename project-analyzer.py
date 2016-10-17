@@ -9,7 +9,7 @@ from author import calc_authorship
 
 class Project:
     def __init__(self, repo_path, lang, file_name):
-        self.CCOUNT_FUNC = {"java": self.count_comments4j, "py": self.count_comments4py, "rb": self.count_comments4rb}
+        self.CCOUNT_FUNC = {"java": self.count_comments4j, "py": self.count_comments4py, "rb": self.count_comments4rb, "cc": self.count_comments4j, "cpp": self.count_comments4j}
         self.repo_path = repo_path
         self.lang = lang
         self.file_name = file_name
@@ -140,8 +140,9 @@ class Project:
 
 def main():
     argv = sys.argv
-    #pa = Project(argv[1], argv[2], argv[3])
-    pa = Project("C:\Users\Ichinose\Documents\GitHub\\acra", "java", "C:\Users\Ichinose\\test.json")
+    pa = Project(argv[1], argv[2], argv[3])
+    #pa = Project("C:\Users\Ichinose\Documents\GitHub\\acra", "java", "C:\Users\Ichinose\\test.json")
+    #pa = Project("C:\Users\Ichinose\Documents\GitHub\\lamtram", "cc", "C:\Users\Ichinose\\test.json")
     pjson = pa.get_json()
     #print pjson
 
