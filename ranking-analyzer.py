@@ -38,15 +38,16 @@ class Diff(object):
                     in commit.diff(precommit, create_patch=True)
                 ]
                 for line in self.DELIMITER.join(diff).splitlines():
-                    print line
+                    #print line
                     if(check == 1):
                         if(line.startswith("+") and preword == self.check_word(line)):
                             # SATD is not removed.
-                            print "NO!"
+                            #print "NO!"
+                            pass
                         else:
                             #SATD is removed.
-                            print "OK!"
-                            print precommit.committer
+                            #print "OK!"
+                            #print precommit.committer
                             if precommit.committer in alluser:
                                 alluser[precommit.committer] = int(alluser[precommit.committer]) + 1
                             else:
@@ -75,4 +76,4 @@ if __name__ == '__main__':
     #obj = Diff("./redis-py", "./test4.json")
     #obj = Diff("./activeadmin", "./test5.json")
     obj = Diff(argv[1], argv[2])
-    print obj.check_satd()
+    obj.check_satd()
