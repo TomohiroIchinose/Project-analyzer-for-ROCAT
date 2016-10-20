@@ -9,6 +9,10 @@
             "name": "Shohei Ikeda"
         }, 
         {
+            "num": 1, 
+            "name": "GitHub"
+        }, 
+        {
             "num": 2, 
             "name": "Kenichi-o"
         }, 
@@ -17,11 +21,15 @@
             "name": "ogami"
         }, 
         {
-            "num": 1, 
+            "num": 3, 
             "name": "Tomohiro"
         }, 
         {
-            "num": 3, 
+            "num": 1, 
+            "name": "nakasai"
+        }, 
+        {
+            "num": 5, 
             "name": "kosuke-ka"
         }
     ]

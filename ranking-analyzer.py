@@ -4,7 +4,7 @@ import os
 import re
 import json
 import sys
-
+import difflib
 
 class Diff(object):
 
@@ -30,6 +30,7 @@ class Diff(object):
         alluser = {}
         ranklist = []
         check = 0
+        already = 0
         preword = ""
         for commit in self.repo.iter_commits('master'):
             if not precommit is None:
@@ -48,10 +49,24 @@ class Diff(object):
                             #SATD is removed.
                             #print "OK!"
                             #print precommit.committer
-                            if precommit.committer in alluser:
-                                alluser[precommit.committer] = int(alluser[precommit.committer]) + 1
+                            userlist = alluser.keys()
+                            already = 0
+                            if not len(userlist) == 0:
+                                for user in userlist:
+                                    #print difflib.SequenceMatcher(None,unicode(user), unicode(precommit.committer)).ratio()
+                                    if difflib.SequenceMatcher(None,unicode(user), unicode(precommit.committer)).ratio() > 0.6:
+                                        already = 1
+                                        break
+                                if already == 1:
+                                    alluser[user] = int(alluser[user]) + 1
+                                else:
+                                    alluser[precommit.committer] = 1
                             else:
                                 alluser[precommit.committer] = 1
+                            #if precommit.committer in alluser:
+                                #alluser[precommit.committer] = int(alluser[precommit.committer]) + 1
+                            #else:
+                                #alluser[precommit.committer] = 1
                         check = 0
                     if any([word.lower() in line.lower() for word in self.debt_words]) and line.startswith("-") and check == 0:
                         preword = self.check_word(line)
