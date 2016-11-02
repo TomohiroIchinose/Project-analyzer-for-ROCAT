@@ -17,6 +17,7 @@ class Project:
         self.colormap = {}
         self.color = [0.0, 0.0, 0.0]
         self.debt_words = ["hack", "retarded", "at a loss", "stupid", "remove this code", "ugly", "take care", "something's gone wrong", "nuke", "is problematic", "may cause problem", "hacky", "unknown why we ever experience this", "treat this as a soft error", "silly", "workaround for bug", "kludge", "fixme", "this isn't quite right", "trial and error", "give up", "this is wrong", "hang our heads in shame", "temporary solution", "causes issue", "something bad is going on", "cause for issue", "this doesn't look right", "is this next line safe", "this indicates a more fundamental problem", "temporary crutch", "this can be a mess", "this isn't very solid", "this is temporary and will go away", "is this line really safe", "there is a problem", "some fatal error", "something serious is wrong", "don't use this", "get rid of this", "doubt that this would work", "this is bs", "give up and go away", "risk of this blowing up", "just abandon it", "prolly a bug", "probably a bug", "hope everything will work", "toss it", "barf ", "something bad happened", "fix this crap", "yuck", "certainly buggy", "remove me before production", "you can be unhappy now", "this is uncool", "bail out", "it doesn't work yet", "crap", "inconsistency", "abandon all hope", "kaboom"]
+        self.target = ["java", "py", "rb", "cc", "cpp"]
 
 
     def get_bestauthor(self, file_path):
@@ -57,14 +58,24 @@ class Project:
             for fname in fnames:
                 each = 0
                 fpath = dpath + "/" + fname
-                if not self.is_target_file(fname):
+                #print fname
+                ex = (os.path.splitext(fname)[1])[1:]
+                if not ex in self.target:
                     continue
+                #if not self.is_target_file(fname):
+                #   continue
                 author = self.get_bestauthor(fpath)
                 #print author, fpath
                 color = self.set_color(author)
                 block_name.add(dpath)
                 loc = self.count_lines(fpath) + 2
-                comment = self.CCOUNT_FUNC[self.lang](fpath)
+                #comment = self.CCOUNT_FUNC[self.lang](fpath)
+                if ex == "java" or ex == "cc" or ex == "cpp":
+                    comment = self.CCOUNT_FUNC["java"](fpath)
+                elif ex == "py":
+                    comment = self.CCOUNT_FUNC["py"](fpath)
+                elif ex == "rb":
+                    comment = self.CCOUNT_FUNC["rb"](fpath)
                 slist, each = self.count_selfadmitted(fpath)
                 total += each
                 buildings.append(
@@ -143,6 +154,7 @@ def main():
     pa = Project(argv[1], argv[2], argv[3])
     #pa = Project("C:\Users\Ichinose\Documents\GitHub\\acra", "java", "C:\Users\Ichinose\\test.json")
     #pa = Project("C:\Users\Ichinose\Documents\GitHub\\lamtram", "cc", "C:\Users\Ichinose\\test.json")
+    #pa = Project("C:\Users\Ichinose\Documents\GitHub\\mosesdecoder", "java", "C:\Users\Ichinose\\test2.json")
     pjson = pa.get_json()
     #print pjson
 

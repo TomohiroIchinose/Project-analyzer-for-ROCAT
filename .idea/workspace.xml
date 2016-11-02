@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-analyzer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project-analyzer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+            <state relative-caret-position="599">
+              <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="histrage-analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/histrage-analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
+            <state relative-caret-position="374">
               <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ranking-analyzer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ranking-analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ranking-analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+            <state relative-caret-position="191">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -91,9 +91,9 @@
         <option value="$USER_HOME$/Desktop/test.py" />
         <option value="$PROJECT_DIR$/histrage-analyzer.py" />
         <option value="$USER_HOME$/Desktop/test/analyze.py" />
-        <option value="$PROJECT_DIR$/project-analyzer.py" />
         <option value="$USER_HOME$/Desktop/test/difftest.py" />
         <option value="$PROJECT_DIR$/ranking-analyzer.py" />
+        <option value="$PROJECT_DIR$/project-analyzer.py" />
       </list>
     </option>
   </component>
@@ -145,7 +145,7 @@
       <recent name="C:\Users\Ichinose\PycharmProjects\project-analyzer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ranking-analyzer">
+  <component name="RunManager" selected="Python.project-analyzer">
     <configuration default="false" name="author" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -923,30 +923,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.py" />
-    <entry file="file://$PROJECT_DIR$/histrage-analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54072/home/tomohiro-i/analyzer/project-analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,18 +949,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histrage-analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
           <folding>
-            <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ranking-analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        <state relative-caret-position="191">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
