@@ -52,6 +52,7 @@ class Project:
         directories = []
         total = 0
         block_name = set()
+        namelist = []
         for dpath, dnames, fnames in os.walk(self.repo_path):
             directories.append(dpath)
             #print dpath
@@ -78,8 +79,18 @@ class Project:
                     comment = self.CCOUNT_FUNC["rb"](fpath)
                 slist, each = self.count_selfadmitted(fpath)
                 total += each
+
+                path = dpath + "/" + fname
+
+                if fname in namelist:
+                    directory = dpath[dpath.find(".git") + 5 : ]
+                    fname = fname + "(" + directory + ")"
+                    namelist.append(fname)
+                else:
+                    namelist.append(fname)
+
                 buildings.append(
-                    {"block": dpath, "name": fname, "path": dpath + "/" + fname, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
+                    {"block": dpath, "name": fname, "path": path, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
         json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total}, indent=4)
