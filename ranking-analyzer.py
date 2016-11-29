@@ -5,6 +5,7 @@ import re
 import json
 import sys
 import difflib
+import time
 
 class Diff(object):
 
@@ -33,7 +34,7 @@ class Diff(object):
         already = 0
         preword = ""
         for commit in self.repo.iter_commits('master'):
-            if not precommit is None:
+            if not precommit is None and int(time.strftime("%Y",time.gmtime(commit.committed_date))) >= 2016:
                 diff = [
                     (test.diff) for test
                     in commit.diff(precommit, create_patch=True)
