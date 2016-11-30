@@ -72,12 +72,12 @@ class Project:
                 loc = self.count_lines(fpath) + 2
                 #comment = self.CCOUNT_FUNC[self.lang](fpath)
                 if ex == "java" or ex == "cc" or ex == "cpp":
-                    comment = self.CCOUNT_FUNC["java"](fpath)
+                    comment, slist, each = self.CCOUNT_FUNC["java"](fpath)
                 elif ex == "py":
-                    comment = self.CCOUNT_FUNC["py"](fpath)
+                    comment, slist, each = self.CCOUNT_FUNC["py"](fpath)
                 elif ex == "rb":
                     comment = self.CCOUNT_FUNC["rb"](fpath)
-                slist, each = self.count_selfadmitted(fpath)
+                #slist, each = self.count_selfadmitted(fpath)
                 total += each
 
                 path = dpath + "/" + fname
@@ -129,35 +129,78 @@ class Project:
     def count_comments4rb(self, file_path):
         f = open(file_path)
         comments = 0
+        slist = []
+        satds = 0
+        count = 0
         isComment = False
         for line in f:
-            if "=begin" in line:
-                isComment = True
-            if "=end" in line:
-                isComment = False
             if isComment:
                 comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            if "=begin" in line:
+                isComment = True
+                comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            if "=end" in line:
+                isComment = False
             if "#" in line and not "#{" in line:
                 comments += 1
-        return comments
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            count += 1
+        f.close()
+        return (comments, slist, satds)
 
     def count_comments4j(self, file_path):
         f = open(file_path)
         comments = 0
+        slist = []
+        satds = 0
+        count = 0
+        isComment = False
         for line in f:
-            if "//" in line:
+            if isComment:
                 comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            if "/*" in line:
+                isComment = True
+                comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            if "*/" in line:
+                isComment = False
+            if "//" in line and not "://" in line:
+                comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            count += 1
         f.close()
-        return comments
+        return (comments, slist, satds)
 
     def count_comments4py(self, file_path):
         f = open(file_path)
         comments = 0
+        slist = []
+        satds = 0
+        count = 0
         for line in f:
             if "#" in line:
                 comments += 1
+                if self.is_debt_line(line):
+                    satds += 1
+                    slist.append(count)
+            count += 1
         f.close()
-        return comments
+        return (comments, slist, satds)
 
 
 def main():
