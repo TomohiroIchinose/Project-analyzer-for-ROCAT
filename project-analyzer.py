@@ -76,7 +76,7 @@ class Project:
                 elif ex == "py":
                     comment, slist, each = self.CCOUNT_FUNC["py"](fpath)
                 elif ex == "rb":
-                    comment = self.CCOUNT_FUNC["rb"](fpath)
+                    comment, slist, each = self.CCOUNT_FUNC["rb"](fpath)
                 #slist, each = self.count_selfadmitted(fpath)
                 total += each
 
