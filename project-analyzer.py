@@ -16,7 +16,7 @@ class Project:
         self.authors = calc_authorship(repo_path)
         self.colormap = {}
         self.color = [0.0, 0.0, 0.0]
-        self.debt_words = ["hack", "retarded", "at a loss", "stupid", "remove this code", "ugly", "take care", "something's gone wrong", "nuke", "is problematic", "may cause problem", "hacky", "unknown why we ever experience this", "treat this as a soft error", "silly", "workaround for bug", "kludge", "fixme", "this isn't quite right", "trial and error", "give up", "this is wrong", "hang our heads in shame", "temporary solution", "causes issue", "something bad is going on", "cause for issue", "this doesn't look right", "is this next line safe", "this indicates a more fundamental problem", "temporary crutch", "this can be a mess", "this isn't very solid", "this is temporary and will go away", "is this line really safe", "there is a problem", "some fatal error", "something serious is wrong", "don't use this", "get rid of this", "doubt that this would work", "this is bs", "give up and go away", "risk of this blowing up", "just abandon it", "prolly a bug", "probably a bug", "hope everything will work", "toss it", "barf ", "something bad happened", "fix this crap", "yuck", "certainly buggy", "remove me before production", "you can be unhappy now", "this is uncool", "bail out", "it doesn't work yet", "crap", "inconsistency", "abandon all hope", "kaboom"]
+        self.debt_words = ["TODO", "hack", "retarded", "at a loss", "stupid", "remove this code", "ugly", "take care", "something's gone wrong", "nuke", "is problematic", "may cause problem", "hacky", "unknown why we ever experience this", "treat this as a soft error", "silly", "workaround for bug", "kludge", "fixme", "this isn't quite right", "trial and error", "give up", "this is wrong", "hang our heads in shame", "temporary solution", "causes issue", "something bad is going on", "cause for issue", "this doesn't look right", "is this next line safe", "this indicates a more fundamental problem", "temporary crutch", "this can be a mess", "this isn't very solid", "this is temporary and will go away", "is this line really safe", "there is a problem", "some fatal error", "something serious is wrong", "don't use this", "get rid of this", "doubt that this would work", "this is bs", "give up and go away", "risk of this blowing up", "just abandon it", "prolly a bug", "probably a bug", "hope everything will work", "toss it", "barf ", "something bad happened", "fix this crap", "yuck", "certainly buggy", "remove me before production", "you can be unhappy now", "this is uncool", "bail out", "it doesn't work yet", "crap", "inconsistency", "abandon all hope", "kaboom"]
         self.target = ["java", "py", "rb", "cc", "cpp"]
 
 
@@ -50,6 +50,7 @@ class Project:
         blocks = []
         buildings = []
         directories = []
+        satdfiles = []
         total = 0
         block_name = set()
         namelist = []
@@ -59,6 +60,7 @@ class Project:
             for fname in fnames:
                 each = 0
                 fpath = dpath + "/" + fname
+
                 #print fname
                 ex = (os.path.splitext(fname)[1])[1:]
                 if not ex in self.target:
@@ -78,9 +80,11 @@ class Project:
                 elif ex == "rb":
                     comment, slist, each = self.CCOUNT_FUNC["rb"](fpath)
                 #slist, each = self.count_selfadmitted(fpath)
-                total += each
 
-                path = dpath + "/" + fname
+                if each > 0:
+                    satdfiles.append(fpath)
+
+                total += each
 
                 if fname in namelist:
                     directory = dpath[dpath.find(".git") + 5 : ]
@@ -90,10 +94,10 @@ class Project:
                     namelist.append(fname)
 
                 buildings.append(
-                    {"block": dpath, "name": fname, "path": path, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
+                    {"block": dpath, "name": fname, "path": fpath, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
         for name in block_name:
             blocks.append({"name": name})
-        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total}, indent=4)
+        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total, "satdfiles": satdfiles}, indent=4)
         with open(self.file_name, 'w') as f:
             #print "Writing"
             #json.dump(json_string, f, indent=4)
