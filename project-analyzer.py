@@ -55,7 +55,9 @@ class Project:
         block_name = set()
         namelist = []
         for dpath, dnames, fnames in os.walk(self.repo_path):
-            directories.append(dpath)
+
+            if dpath.count(".git") <= 1:
+                directories.append(dpath)
             #print dpath
             for fname in fnames:
                 each = 0
