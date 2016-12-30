@@ -84,7 +84,7 @@ class Project:
                 #slist, each = self.count_selfadmitted(fpath)
 
                 if each > 0:
-                    satdfiles.append({"name":fpath, "num":each})
+                    satdfiles.append({"name":fpath, "num":each, "SATD":slist})
 
                 total += each
 

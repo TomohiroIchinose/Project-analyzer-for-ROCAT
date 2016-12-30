@@ -42,8 +42,8 @@
       <file leaf-file-name="project-analyzer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            <state relative-caret-position="704">
+              <caret line="86" column="78" selection-start-line="86" selection-start-column="78" selection-end-line="86" selection-end-column="78" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -410,7 +410,7 @@
       <module name="project-analyzer" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project-analyzer.py" />
-      <option name="PARAMETERS" value="&quot;C:\Users\Ichinose\Documents\GitHub\dynet&quot; &quot;java&quot;  &quot;C:\Users\Ichinose\Documents\GitHub\dynet3.json&quot;" />
+      <option name="PARAMETERS" value="&quot;C:\Users\Ichinose\Documents\GitHub\dynet&quot; &quot;java&quot;  &quot;C:\Users\Ichinose\Documents\GitHub\dynet4.json&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -967,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        <state relative-caret-position="704">
+          <caret line="86" column="78" selection-start-line="86" selection-start-column="78" selection-end-line="86" selection-end-column="78" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
