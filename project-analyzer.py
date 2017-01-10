@@ -54,13 +54,25 @@ class Project:
         total = 0
         block_name = set()
         namelist = []
+        rootname = ""
+        rootflag = True;
+        first_depth = []
         for dpath, dnames, fnames in os.walk(self.repo_path):
-
+            if rootflag:
+                rootname = dpath;
+                rootflag = False;
+            fcount = 0
             if dpath.count(".git") <= 1:
                 directories.append(dpath)
-            #print dpath
+                #print dpath
+                if dpath[len(rootname) : len(dpath)].count("/") == 1:
+                    first_depth.append(dpath)
+                    #print "!!!1st_depth!!!"
+                    #print dpath
+
             for fname in fnames:
                 each = 0
+
                 fpath = dpath + "/" + fname
 
                 #print fname
@@ -77,10 +89,13 @@ class Project:
                 #comment = self.CCOUNT_FUNC[self.lang](fpath)
                 if ex == "java" or ex == "cc" or ex == "cpp":
                     comment, slist, each = self.CCOUNT_FUNC["java"](fpath)
+                    fcount += 1;
                 elif ex == "py":
                     comment, slist, each = self.CCOUNT_FUNC["py"](fpath)
+                    fcount += 1;
                 elif ex == "rb":
                     comment, slist, each = self.CCOUNT_FUNC["rb"](fpath)
+                    fcount += 1;
                 #slist, each = self.count_selfadmitted(fpath)
 
                 if each > 0:
@@ -97,9 +112,29 @@ class Project:
 
                 buildings.append(
                     {"block": dpath, "name": fname, "path": fpath, "widthX": comment * 10 + 1, "widthY": comment * 10 + 1, "height": loc, "color_r":color[0], "color_g":color[1], "color_b":color[2],"SATD":slist})
+            #print dpath;
+            #print fcount;
+
+
+        first_depth_dir = []
+        for first in first_depth:
+            fcount = 0
+            for building in buildings:
+                if first + "/" in building["path"]:
+                    fcount += 1;
+            first_depth_dir.append({"name":first, "filenum":fcount})
+
+        zerocount = 0;
+        for building in buildings:
+            if rootname + "/" in building["path"] and building["path"][len(rootname): len(building["path"])].count("/") == 1:
+                zerocount += 1;
+        root_depth = {"name": rootname, "filenum":zerocount}
+
+
+
         for name in block_name:
             blocks.append({"name": name})
-        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total, "satdfiles": satdfiles}, indent=4)
+        json_string = json.dumps({"blocks": list(blocks), "buildings": buildings, "directories": directories, "totalsatd": total, "satdfiles": satdfiles, "first_depth":first_depth_dir, "root_depth":root_depth}, indent=4)
         with open(self.file_name, 'w') as f:
             #print "Writing"
             #json.dump(json_string, f, indent=4)
