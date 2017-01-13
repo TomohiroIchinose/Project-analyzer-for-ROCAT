@@ -125,10 +125,11 @@ class Project:
             first_depth_dir.append({"name":first, "filenum":fcount})
 
         zerocount = 0;
+	root_depth = []
         for building in buildings:
             if rootname + "/" in building["path"] and building["path"][len(rootname): len(building["path"])].count("/") == 1:
                 zerocount += 1;
-        root_depth = {"name": rootname, "filenum":zerocount}
+        root_depth.append({"name": rootname, "filenum":zerocount})
 
 
 
